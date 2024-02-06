@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+        
+</head>
+<body>
+    <div class="all">
+        <aside class="navBar">
+            <div class="logo">
+                <img src="../images/icons/logo.svg" alt="logo">
+            </div>
+            <nav class="nav__list">
+                <div class="nav__item">
+                    <img src="../images/icons/dashboard_inactive.svg" alt="dashboard icon">
+                    <a href="../pages/dashboard.html" class="nav__title">Dashboard</a>
+                </div>
+                <div>
+                    <div class="active"></div>
+                    <img src="../images/icons/transactions_active.svg" alt="transactions icon">
+                    <a href="../pages/transactions.html" class="nav__title nav__title--active">Transactions</a>
+                </div>
+                <div>
+                    <img src="../images/icons/accounts.svg" alt="accounts icon">
+                    <a href="" class="nav__title">Accounts</a>
+                </div>
+                <div>
+                    <img src="../images/icons/investments.svg" alt="investments icon">
+                    <a href="" class="nav__title">Investments</a>
+                </div>
+                <div>
+                    <img src="../images/icons/creditcards.svg" alt="credit cards icon">
+                    <a href="" class="nav__title">Credit Cards</a>
+                </div>
+                <div>
+                    <img src="../images/icons/loans.svg" alt="loans icon">
+                    <a href="" class="nav__title">Loans</a>
+                </div>
+                <div>
+                    <img src="../images/icons/services.svg" alt="services icon">
+                    <a href="" class="nav__title">Services</a>
+                </div>
+                <div>
+                    <img src="../images/icons/privileges.svg" alt="my privileges icon">
+                    <a href="" class="nav__title">My privileges</a>
+                </div>
+                <div>
+                    <img src="../images/icons/settings.svg" alt="settings icon">
+                    <a href="" class="nav__title">Settings</a>
+                </div>
+            </nav>
+        </aside>
+        <div class="wrapper">
+            <header class="header">
+                <div>
+                    <span class="overview">Transactions</span>
+                </div>
+                <div class="header__account">
+                    <div class="header__search">
+                        <img src="../images/icons/magnifying-glass.svg" alt="magnifying glass icon">
+                        <input type="search" class="search" placeholder="Search for something">
+                    </div>
+                    <div class="header__icons">
+                        <img src="../images/icons/settins_1.svg" alt="settings icon">
+                    </div>
+                    <div class="header__icons">
+                        <img src="../images/icons/notifications_1.svg" alt="notifications icon">
+                    </div>
+                    <div>
+                        <img src="../images/icons/account_girl.png" alt="account holder image" class="header__icons--holder">
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <div class="content__center">
+                    <div class="row">
+                        <div class="row__side">
+                            <div class="row__titles">
+                                <span class="row__title">My Cards</span>
+                                <button class="btn">+ Add Card</button>
+                            </div>
+                            <div class="row__cards">
+                                <div class="row__card row__card--blue rounded">
+                                    <div class="card__info">
+                                        <div class="column">
+                                            <span class="balance">Balance</span>
+                                            <span class="balanceNumb">$5,756</span>
+                                        </div>
+                                        <div>
+                                            <img src="../images/icons/chip_card.png" alt="chip card icon">
+                                        </div>
+                                    </div>
+                                    <div class="card__info card__info--between">
+                                        <div class="column">
+                                            <span class="holderValid">CARD HOLDER</span>
+                                            <span class="nameDate">Eddy Cusuma</span>
+                                        </div>
+                                        <div class="column">
+                                            <span class="holderValid">VALID THRU</span>
+                                            <span class="nameDate">12/22</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__info card__info--bottom card__info--linear">
+                                        <span class="cardNumb">3778 **** **** 1234</span>
+                                        <img src="../images/icons/mastercard.svg" alt="mastercard icon">
+                                    </div>
+                                </div>
+                                <div class="row__card row__card--white rounded">
+                                    <div class="card__info">
+                                        <div class="column">
+                                            <span class="balance-1">Balance</span>
+                                            <span class="balanceNumb-1">$5,756</span>
+                                        </div>
+                                        <div>
+                                            <img src="../images/icons/chip_card_dark.png" alt="chip card icon">
+                                        </div>
+                                    </div>
+                                    <div class="card__info card__info--between">
+                                        <div class="column">
+                                            <span class="holderValid-1">CARD HOLDER</span>
+                                            <span class="nameDate-1">Eddy Cusuma</span>
+                                        </div>
+                                        <div class="column">
+                                            <span class="holderValid-1">VALID THRU</span>
+                                            <span class="nameDate-1">12/22</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__info card__info--bottom card__info--white">
+                                        <span class="cardNumb-1">3778 **** **** 1234</span>
+                                        <img src="../images/icons/mastercard_dark.svg" alt="mastercard icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row__side">
+                            
+                            <div class="row__titles">
+                                <span class="row__title">My Expense</span>
+                            </div>
+                            <div class="row__card row__card--white rounded">
+                                <img src="../images/diagram_4.png" alt="diagram image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
